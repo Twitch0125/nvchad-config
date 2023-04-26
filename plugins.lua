@@ -25,6 +25,7 @@ local plugins = {
         "css-lsp",
         "unocss-language-server",
         "stylua",
+        "marksman",
       },
     },
   },
