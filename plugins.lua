@@ -16,15 +16,20 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        -- Lua 
         "lua-language-server",
+        "stylua",
+        -- Web dev
         "prettier",
         "vue-language-server",
         "typescript-language-server",
         "emmet-ls",
+        "eslint_d",
+        "eslint-lsp",
         "html-lsp",
         "css-lsp",
         "unocss-language-server",
-        "stylua",
+        -- Content
         "marksman",
       },
     },
@@ -42,6 +47,12 @@ local plugins = {
         "json",
         "vue",
         "tsx",
+        "go",
+        "dockerfile",
+        "markdown",
+        "yaml",
+        "toml",
+        "sql"
       },
     },
   },
