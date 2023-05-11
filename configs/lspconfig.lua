@@ -9,8 +9,10 @@ for _, lsp in ipairs(servers) do
     on_attach = on_attach,
     capabilities = capabilities,
   }
-  if lsp == "volar" then
-   lspconfig.volar.setup.filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
+  if lsp == "volar" and lspconfig.volar ~= nil then
+   lspconfig.volar.setup { 
+      filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
+    }
   end
 end
 

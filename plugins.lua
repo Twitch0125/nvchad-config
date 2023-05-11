@@ -42,8 +42,8 @@ local plugins = {
         "json",
         "vue",
         "tsx",
-        "jsx",
       },
     },
   },
 }
+return plugins
