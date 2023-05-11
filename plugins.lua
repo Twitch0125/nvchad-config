@@ -29,6 +29,10 @@ local plugins = {
         "html-lsp",
         "css-lsp",
         "unocss-language-server",
+        -- Tools
+        "bash-language-server",
+        "dockerfile-language-server",
+        "docker-compose-language-service",
         -- Content
         "marksman",
       },
